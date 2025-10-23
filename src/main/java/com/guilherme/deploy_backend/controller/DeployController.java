@@ -15,4 +15,9 @@ public class DeployController {
 	public String segundoMetodo() {
 		return "Segundo método!";
 	}
+	
+	@GetMapping("/terceiro-metodo")
+	public String terceiroMetodo() {
+		return "Terceiro método!";
+	}	
 }
