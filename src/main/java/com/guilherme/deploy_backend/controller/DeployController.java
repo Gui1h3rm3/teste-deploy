@@ -11,7 +11,7 @@ public class DeployController {
 		return "Hello World!";
 	}
 	
-	@GetMapping("/segundoMetodo")
+	@GetMapping("/segundo-metodo")
 	public String segundoMetodo() {
 		return "Segundo método!";
 	}
